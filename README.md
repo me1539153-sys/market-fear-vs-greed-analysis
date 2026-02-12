@@ -1,5 +1,4 @@
-# market-fear-vs-greed-analysis
-**To View Project Output Visit:-** http://localhost:8501/
+# market-fear-vs-greed-analysis 
 This project analyzes the relationship between market sentiment (Fear vs Greed) and trader behavior and performance on the Hyperliquid trading platform. The objective is to understand whether overall market psychology influences how traders act (trade frequency, position bias, trade size) and how well they perform in terms of realized profit and loss (PnL).
 
 Two datasets are used: a daily Bitcoin Fear & Greed Index, representing market sentiment, and historical trade-level data from Hyperliquid, containing information such as trader account, trade size, side (buy/sell), timestamp, and realized PnL. Trade timestamps are converted from Unix epoch format and aligned with sentiment data at a daily level.
